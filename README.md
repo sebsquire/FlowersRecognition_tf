@@ -17,6 +17,6 @@ CNN model:
   - 1 fully connected layer
   - 1 output layer (softmax)
 Model attains 71% accuracy in 30 epochs using:
-  - Adadelta with lr=0.001, weight_decay=1e-6, keep_rate=0.95, batch_size=16
+  - AdamOptimizer with lr=0.001, weight_decay=1e-6, keep_rate=0.95, batch_size=16
 
 Python 3.6.7, Tensorflow 1.11.0
