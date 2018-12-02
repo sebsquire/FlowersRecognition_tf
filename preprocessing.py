@@ -1,5 +1,5 @@
 '''
-Data presented in 5 different folders, one for each class ~800 images per folderA
+Data presented in 5 different folders, one for each class ~800 images per folder
 function creates two .npy files containing image data and labels with roughly even distribution of flower types in each
 train = 90%, test = 10%
 combines into single list containing 2 arrays. [0] = image data, [1] = one hot encoded class label
