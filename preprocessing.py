@@ -20,10 +20,12 @@ def create_data(folders_dir, img_size):
         elif fold == 'rose': label = [0, 0, 1, 0, 0]
         elif fold == 'sunflower': label = [0, 0, 0, 1, 0]
         elif fold == 'tulip': label = [0, 0, 0, 0, 1]
+            
         for img in tqdm(os.listdir(os.path.join(folders_dir, str(fold)))):
             path = os.path.join(folders_dir, fold, img)
             img = cv2.resize(cv2.imread(path, 1), (img_size, img_size))
             data.append([np.array(img), label])
+            
     shuffle(data)                           # randomly order data
     training_data = data[:4105]             # train data
     testing_data = data[4105:]              # test data
