@@ -5,6 +5,7 @@ Dataset available at: https://www.kaggle.com/alxmamaev/flowers-recognition
 Includes:
  - Tensorflow CNN implemented via functions
  - Tensorflow CNN implemented via classes
+ - Dropout in fully connected layer to reduce overfit
  - Normalisation of image data
 
 Modules:
