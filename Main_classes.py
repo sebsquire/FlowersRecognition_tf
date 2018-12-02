@@ -15,7 +15,6 @@ Python 3.6.7, Tensorflow 1.11.0
 import os
 import numpy as np
 import tensorflow as tf
-from tflearn.data_augmentation import ImageAugmentation
 
 # image_folders_dir is location of folders containing images of various flower types
 image_folders_dir = 'C:\\Users\squir\Dropbox\ML Projects\Kaggle\Flowers Recognition\\flowers'
