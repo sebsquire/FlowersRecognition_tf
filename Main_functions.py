@@ -4,7 +4,7 @@ Base model:
   - 5 convolutional layers w/ max pooling proceeding each of the first 4.
   - 1 fully connected layer
   - 1 output layer (softmax)
-Model attains 71% accuracy in 30 epochs using:
+Model attains 68% accuracy in 30 epochs using:
   - AdamOptimizer with lr=0.001, weight_decay=1e-6, keep_rate=0.95, batch_size=16
 
 To run this you will need to change:
