@@ -1,5 +1,5 @@
 # FlowersRecognition_tf
-Multi-class Image Classification using CNN (Flower Types) (Tensorflow, OpenCV)
+Multi-class Image Classification using CNN (Flower Types) (Tensorflow-GPU, OpenCV)
 Dataset available at: https://www.kaggle.com/alxmamaev/flowers-recognition
 
 Includes:
